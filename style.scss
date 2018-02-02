@@ -61,7 +61,6 @@ section {
   h2 {
     @extend .abel;
     font-size: 3.2rem;
-    @extend .uppercase;
   }
 }
 
@@ -87,7 +86,6 @@ section {
   }
  h3 {
     @extend .abel;
-    @extend .uppercase;
     color: $keyColor;
     margin-bottom:10px;
     font-size: 2.4rem;
@@ -151,7 +149,6 @@ footer {
           font-weight: bold;
           background-color: $keyColor;
           @extend .abel;
-          @extend .uppercase;
           @include border-radius(4px);
           font-size: 1rem;
         }
