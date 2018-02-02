@@ -116,11 +116,8 @@ footer {
 // PC
 @media (min-width: 769px) {
     .box1 {
-  background-image: url("background.jpg");
   height: 500px;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
+    }
 }
   /* Base
   ------------------------------------------------------------*/
@@ -143,7 +140,7 @@ footer {
     }
   }
 
-}
+
 
 
 

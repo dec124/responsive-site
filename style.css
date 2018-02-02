@@ -95,23 +95,19 @@ footer {
 
 @media (min-width: 769px) {
   .box1 {
-    background-image: url("background.jpg");
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-position: center center; }
+    height: 500px; } }
+/* Base
+------------------------------------------------------------*/
+a:hover {
+  text-decoration: underline; }
 
-  /* Base
-  ------------------------------------------------------------*/
-  a:hover {
-    text-decoration: underline; }
+#skills .container {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between; }
+#skills .skill-box {
+  margin: 0 10px; }
 
-  #skills .container {
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    justify-content: space-between; }
-  #skills .skill-box {
-    margin: 0 10px; } }
 .button {
   margin: auto;
   text-align: center;
