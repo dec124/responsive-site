@@ -104,6 +104,15 @@ footer {
   color: #FFF;
 }
 
+.box1 {
+  background-image: url("background.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+
 // PC
 @media (min-width: 769px) {
     .box1 {
@@ -153,11 +162,4 @@ footer {
           font-size: 1rem;
         }
 
-.box1 {
-  background-image: url("background.jpg");
-  height: 250px;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-}
 
